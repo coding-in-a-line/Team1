@@ -1,0 +1,4 @@
+l[2021-04-19 17:02:27:1551][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 4104 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-19 17:02:27:1564][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-04-19 17:02:31:5547][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 4.793 seconds (JVM running for 7.12)
+[2021-04-19 17:02:39:13198][http-nio-8080-exec-1] INFO  c.s.b.web.HelloController - hello
