@@ -8,6 +8,7 @@
         <version>2.3.11.BUILD-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.spring</groupId>
     <artifactId>backend_mariaDB</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -25,7 +26,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
             <artifactId>mariadb-java-client</artifactId>
@@ -47,6 +47,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -66,6 +72,11 @@
         </plugins>
     </build>
     <repositories>
+        <repository>
+            <id>mvn-repository</id>
+            <name>Mvn Repository</name>
+            <url>http://www.mvnrepository.com</url>
+        </repository>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
