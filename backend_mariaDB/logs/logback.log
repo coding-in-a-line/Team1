@@ -1,5 +1,0 @@
-[2021-04-19 18:09:04:672][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 4724 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
-[2021-04-19 18:09:04:675][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
-[2021-04-19 18:09:07:3486][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 3.146 seconds (JVM running for 4.219)
-[2021-04-19 18:09:27:24024][http-nio-8080-exec-1] INFO  c.s.b.web.HelloController - hello
-[2021-04-19 18:09:27:24025][http-nio-8080-exec-1] INFO  c.s.b.web.HelloController - java.lang.NullPointerException
