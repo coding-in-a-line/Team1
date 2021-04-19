@@ -15,7 +15,7 @@ public class HelloController {
         try{
             throw new NullPointerException();
         }catch(Exception e){
-            log.info("Exception Occur",e);
+            log.info(e.toString());
         }
         return "hello";
     }
