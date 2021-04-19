@@ -12,6 +12,11 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(){
         log.info("hello");
+        try{
+            throw new NullPointerException();
+        }catch(Exception e){
+            log.info("Exception Occur",e);
+        }
         return "hello";
     }
 
