@@ -1,0 +1,18 @@
+[2021-04-25 10:12:52:2020][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 34683 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:12:52:2024][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:13:10:1420][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 34898 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:13:10:1422][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:16:56:1317][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 34914 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:16:56:1319][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:18:42:1748][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 34937 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:18:42:1752][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:18:47:6943][main] INFO  c.s.b.PostsRepositoryTest - Started PostsRepositoryTest in 5.834 seconds (JVM running for 8.826)
+[2021-04-25 10:19:43:1892][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 34950 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:19:43:1894][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:19:47:5987][main] INFO  c.s.b.PostsRepositoryTest - Started PostsRepositoryTest in 4.977 seconds (JVM running for 7.349)
+[2021-04-25 10:36:33:1702][main] INFO  c.s.b.PostsRepositoryTest - Starting PostsRepositoryTest on sangokleeui-MacBookPro.local with PID 35080 (started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:36:33:1703][main] INFO  c.s.b.PostsRepositoryTest - No active profile set, falling back to default profiles: default
+[2021-04-25 10:36:37:5570][main] INFO  c.s.b.PostsRepositoryTest - Started PostsRepositoryTest in 4.536 seconds (JVM running for 7.256)
+[2021-04-25 10:36:53:1171][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 35094 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-04-25 10:36:53:1174][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-04-25 10:36:56:4148][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 3.599 seconds (JVM running for 5.114)

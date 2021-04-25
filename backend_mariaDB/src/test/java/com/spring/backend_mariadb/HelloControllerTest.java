@@ -1,6 +1,6 @@
 package com.spring.backend_mariadb;
 
-import com.spring.backend_mariadb.web.HelloController;
+import com.spring.backend_mariadb.web.controller.HelloController;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

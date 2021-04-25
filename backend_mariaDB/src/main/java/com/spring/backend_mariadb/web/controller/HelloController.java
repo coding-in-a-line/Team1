@@ -1,4 +1,4 @@
-package com.spring.backend_mariadb.web;
+package com.spring.backend_mariadb.web.controller;
 
 import com.spring.backend_mariadb.web.dto.HelloResponseDto;
 import lombok.extern.slf4j.Slf4j;
