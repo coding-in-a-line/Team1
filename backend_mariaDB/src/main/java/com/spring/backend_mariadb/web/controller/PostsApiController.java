@@ -1,6 +1,5 @@
 package com.spring.backend_mariadb.web.controller;
 
-import com.spring.backend_mariadb.web.domain.posts.Posts;
 import com.spring.backend_mariadb.web.dto.PostsDto;
 import com.spring.backend_mariadb.web.service.PostService;
 import lombok.RequiredArgsConstructor;
@@ -14,7 +13,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 public class PostsApiController {
-
     private final PostService postService;
 
 
