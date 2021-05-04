@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 public class MembersDto {
@@ -17,6 +18,8 @@ public class MembersDto {
     private LocalDateTime reg_date;
     private LocalDateTime upd_date;
     private String manager;
+    
+    private List<MemberAuthDto> authList;
 
     @Builder
     public MembersDto(Long idx, String id, String pw, String real_name, String ctz_number, String login_status, LocalDateTime reg_date, LocalDateTime upd_date,String manager) {
