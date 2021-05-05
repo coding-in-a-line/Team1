@@ -21,6 +21,7 @@ public class CustomAccessDeniedHandler implements AccessDeniedHandler {
 
 		logger.error("Redirect....");
 
+		// 권한 액세스 거부된 곳으로 보내버리기
 		response.sendRedirect("/error/accessError");
 	}
 

@@ -36,12 +36,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		log.info("security config......");
 		
-		
+		// 로그인 리다이렉트 설정
 		http.formLogin()
 		.loginPage("/auth/login")
 		.loginProcessingUrl("/login")
 		.successHandler(createAuthenticationSuccessHandler());
 		
+		// 로그아웃 리다이렉트 설정
 		http.logout()
 		.logoutUrl("/auth/logout")
 		.invalidateHttpSession(true);
@@ -55,10 +56,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.tokenValiditySeconds(60*60*24);
 		
 		// 접근 제한 설정
+		// 여기 메뉴별 접근권한 설정해줄것.
 		http.authorizeRequests()
 		.antMatchers("/")
 		.authenticated()
-		.antMatchers("/user/**").authenticated() 
+		.antMatchers("/admin/**").hasRole("Role_Admin") 
 		.antMatchers("/ebook/**").authenticated()
 		.antMatchers("/board/**").authenticated();
 	}
