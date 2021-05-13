@@ -18,6 +18,14 @@ public class PostsDto {
         this.content = content;
         this.author = author;
     }
+    public Posts toPut(){
+        return Posts.builder()
+                .id(id)
+                .title(title)
+                .content(content)
+                .author(author)
+                .build();
+    }
     public Posts toEntity() {
         return Posts.builder()
                 .title(title)

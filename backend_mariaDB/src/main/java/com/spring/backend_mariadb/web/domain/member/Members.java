@@ -51,7 +51,5 @@ public class Members {
         this.reg_date = reg_date;
         this.upd_date = upd_date;
         this.manager = manager;
-        
-        
     }
 }
