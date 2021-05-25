@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 public class PostsApiController {
     private final PostService postService;
 
-    @GetMapping("/api/posts")
+    @GetMapping("/api/v1/posts")
     public ApiResult getPosts(@PageableDefault(sort = { "id" }, direction = Sort.Direction.DESC, size = 10) Pageable pageable){
         try {
             return ApiResult.succeed(
@@ -29,7 +29,7 @@ public class PostsApiController {
             return ApiResult.failed(e);
         }
     }
-    @GetMapping("/api/posts/{id}")
+    @GetMapping("/api/v1/posts/{id}")
     public ApiResult getPostbyId(@PathVariable Long id){
         try {
             return ApiResult.succeed(
@@ -40,7 +40,7 @@ public class PostsApiController {
             return ApiResult.failed(e);
         }
     }
-    @PostMapping(value = "/api/posts")
+    @PostMapping(value = "/api/v1/posts")
     public ApiResult save(@RequestBody PostsDto requestDto) {
         try {
             return ApiResult.succeed(
@@ -51,7 +51,7 @@ public class PostsApiController {
             return ApiResult.failed(e);
         }
     }
-    @PutMapping("/api/posts/{id}")
+    @PutMapping("/api/v1/posts/{id}")
     public ApiResult put(@PathVariable Long id,@RequestBody PostsDto requestDto) {
         try {
             return ApiResult.succeed(
@@ -62,7 +62,7 @@ public class PostsApiController {
             return ApiResult.failed(e);
         }
     }
-    @PatchMapping("/api/posts/{id}")
+    @PatchMapping("/api/v1/posts/{id}")
     public ApiResult patch (@PathVariable Long id, @RequestBody PostsDto requestDto){
         try {
             return ApiResult.succeed(
@@ -73,7 +73,7 @@ public class PostsApiController {
             return ApiResult.failed(e);
         }
     }
-    @DeleteMapping("/api/posts/{id}")
+    @DeleteMapping("/api/v1/posts/{id}")
     public ApiResult delete(@PathVariable Long id){
         try {
             return ApiResult.succeed(
