@@ -1,28 +1,28 @@
-package com.spring.backend_mariadb.web.common.security;
-
-import java.io.IOException;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.security.access.AccessDeniedException;
-import org.springframework.security.web.access.AccessDeniedHandler;
-
-public class CustomAccessDeniedHandler implements AccessDeniedHandler {
-
-	private static final Logger logger = LoggerFactory.getLogger(CustomAccessDeniedHandler.class);
-
-	@Override
-	public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException accessException) throws IOException, ServletException {
-		logger.error("Access Denied Handler");
-
-		logger.error("Redirect....");
-
-		// 권한 액세스 거부된 곳으로 보내버리기
-		response.sendRedirect("/error/accessError");
-	}
-
-}
+//package com.spring.backend_mariadb.web.common.security;
+//
+//import java.io.IOException;
+//
+//import javax.servlet.ServletException;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
+//
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+//import org.springframework.security.access.AccessDeniedException;
+//import org.springframework.security.web.access.AccessDeniedHandler;
+//
+//public class CustomAccessDeniedHandler implements AccessDeniedHandler {
+//
+//	private static final Logger logger = LoggerFactory.getLogger(CustomAccessDeniedHandler.class);
+//
+//	@Override
+//	public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException accessException) throws IOException, ServletException {
+//		logger.error("Access Denied Handler");
+//
+//		logger.error("Redirect....");
+//
+//		// 권한 액세스 거부된 곳으로 보내버리기
+//		response.sendRedirect("/error/accessError");
+//	}
+//
+//}

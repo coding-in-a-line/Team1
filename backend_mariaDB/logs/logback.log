@@ -4,3 +4,14 @@
 [2021-05-23 11:23:49:1495][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 23229 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
 [2021-05-23 11:23:49:1501][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
 [2021-05-23 11:24:01:13162][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 12.342 seconds (JVM running for 14.747)
+[2021-05-25 20:10:05:753][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 27706 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-05-25 20:10:05:756][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-05-25 20:10:11:6782][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 6.401 seconds (JVM running for 6.928)
+[2021-05-25 20:10:29:1309][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 27714 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-05-25 20:10:29:1312][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-05-25 20:11:44:745][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 27760 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-05-25 20:11:44:749][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-05-25 20:11:47:4316][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 3.926 seconds (JVM running for 4.449)
+[2021-05-25 20:12:51:768][main] INFO  c.s.b.BackendMariaDbApplication - Starting BackendMariaDbApplication on sangokleeui-MacBookPro.local with PID 27802 (/Users/sangoklee/Documents/workspace/Team1/backend_mariaDB/target/classes started by sangoklee in /Users/sangoklee/Documents/workspace/Team1/backend_mariaDB)
+[2021-05-25 20:12:51:772][main] INFO  c.s.b.BackendMariaDbApplication - No active profile set, falling back to default profiles: default
+[2021-05-25 20:12:54:4112][main] INFO  c.s.b.BackendMariaDbApplication - Started BackendMariaDbApplication in 3.838 seconds (JVM running for 4.236)
